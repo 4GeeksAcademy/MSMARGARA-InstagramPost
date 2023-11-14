@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black; 
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    font-size: 0.9vw;
+  }
+  .post{
+    margin-top: 20%;
+    margin-bottom: 20%;
+    max-width: 350px;
+    background-color: #fff;
+  }
+  
+  /*CABECERA*/
+  .post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  .left-section i {
+    margin-right: 10px;
+  }
+  p {
+    margin: 0;
+  }
+  .headerIcon{
+    font-size: 1.8vw;
+  }
+  /*IMAGEN*/
+  .post-img img {
+    display: block; 
+    width: 100%; 
+    height: 280px;
+    box-sizing: border-box; 
+    overflow: hidden; 
+    object-fit: cover;
+  }
+  /*CUERPO*/
+  .post-body{
+    padding: 10px;
+  }
+  .post-icons{
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.5vw;
+    margin-bottom: 15px;
+  }
+  .likes, .text{
+    margin-bottom: 10px;
+  }
+  .post-icons i:last-child {
+    margin-left: auto; 
+    margin-right: 5px;
+  }
+  .first-icons{
+    margin-right: 20px;
+  }
+  p strong{
+    font-weight: bolder !important;
+  }
+  
